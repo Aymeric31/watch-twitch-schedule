@@ -29,6 +29,10 @@ jobs:
         git config --local user.name "${{ secrets.GIT_USERNAME }}"
  
     - name: Vérifier la présence de events.json
+      env:
+        TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+        TWITCH_BROADCASTER_ID: ${{ secrets.TWITCH_BROADCASTER_ID }}
+        TWITCH_ACCESS_TOKEN: ${{ secrets.TWITCH_ACCESS_TOKEN }}
       run: |
         if [ -f events.json ]; then
           echo "Le fichier events.json existe déjà."
