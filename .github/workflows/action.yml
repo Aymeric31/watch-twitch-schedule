@@ -36,7 +36,7 @@ jobs:
         else
           echo "Le fichier events.json n'existe pas."
           # Exécutez le script pour créer le fichier events.json
-          python init_json
+          python init_json.py
           # Ajoutez le fichier events.json au commit
           git add events.json
           # Effectuez le commit avec un message approprié
