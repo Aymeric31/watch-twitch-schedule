@@ -1,0 +1,38 @@
+[
+    {
+        "segment_id": "eyJzZWdtZW50SUQiOiJiNzMzN2NjYS1mMGY0LTQ1MjItOGIxZS1jOWQ4YzA5NjVkNmUiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjoyN30=",
+        "start_time": "2023-07-04T19:00:00Z",
+        "end_time": "2023-07-04T22:00:00Z",
+        "title": "Le stream du mardi (NEW GAME)",
+        "category_id": "294724507",
+        "category_name": "The Last of Us Part I",
+        "is_recurring": true
+    },
+    {
+        "segment_id": "eyJzZWdtZW50SUQiOiI1OTA5MTJjMi1jMWYyLTQ5NDQtOWZlMy0wMTJkMTgwYTlmOTgiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjoyN30=",
+        "start_time": "2023-07-06T19:00:00Z",
+        "end_time": "2023-07-06T22:00:00Z",
+        "title": "Le stream incertain du jeudi",
+        "category_id": "294724507",
+        "category_name": "The Last of Us Part I",
+        "is_recurring": false
+    },
+    {
+        "segment_id": "eyJzZWdtZW50SUQiOiJmZWVjYzU5Yy02Zjg2LTRkMDctODY4NS0yNTA2MGU1N2QzODYiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjoyN30=",
+        "start_time": "2023-07-07T15:00:00Z",
+        "end_time": "2023-07-07T18:00:00Z",
+        "title": "Le stream du vendredi",
+        "category_id": null,
+        "category_name": null,
+        "is_recurring": true
+    },
+    {
+        "segment_id": "eyJzZWdtZW50SUQiOiIyMjA3Yzg4Yi1hNzExLTQ4MGQtYTM4YS0wMzA3ZmM2NTgzZDQiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjoyN30=",
+        "start_time": "2023-07-09T19:00:00Z",
+        "end_time": "2023-07-09T22:00:00Z",
+        "title": "Le stream du dimanche ( pas s\u00fbre du jeu )",
+        "category_id": "33214",
+        "category_name": "Fortnite",
+        "is_recurring": true
+    }
+]
