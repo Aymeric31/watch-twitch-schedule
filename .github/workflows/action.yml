@@ -1,0 +1,63 @@
+name: event-schedule-comparer
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  push-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: install python packages
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirement.txt
+          
+    - name: Set up Git
+      run: |
+        git config --local user.email "${{ secrets.GIT_EMAIL }}"
+        git config --local user.name "${{ secrets.GIT_USERNAME }}"
+ 
+    - name: Vérifier la présence de events.json
+      run: |
+        if [ -f events.json ]; then
+          echo "Le fichier events.json existe déjà."
+          python script.py
+        else
+          echo "Le fichier events.json n'existe pas."
+          # Exécutez le script pour créer le fichier events.json
+          python init_json
+          # Ajoutez le fichier events.json au commit
+          git add events.json
+          # Effectuez le commit avec un message approprié
+          git commit -m "events.json added"
+          # Poussez les modifications vers GitHub
+          git push origin master
+        fi
+
+    - name: Comparer les fichiers JSON
+      id: compare_json
+      run: |
+        if diff -q events.json events-new.json; then
+          echo "Les fichiers JSON sont identiques."
+        else
+          echo "Le planning a été mis à jour."
+          # Remplacez l'ancien fichier events.json par le nouveau fichier events-new.json
+          mv events-new.json events.json
+          # Ajoutez le fichier events.json au commit
+          git add events.json
+          # Effectuez le commit avec un message approprié
+          git commit -m "events.json updated"
+          # Poussez les modifications vers GitHub
+          git push origin master
+        fi
