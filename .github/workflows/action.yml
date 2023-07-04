@@ -1,6 +1,8 @@
 name: event-schedule-comparer
 
 on:
+  schedule:
+    - cron: "45 19 * * *" # runs at 20:45
   push:
     branches:
       - master
