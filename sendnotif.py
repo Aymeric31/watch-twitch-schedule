@@ -45,9 +45,9 @@ def send_discord(notification_message):
 
     # Vérification du code de statut de la réponse
     if response.status_code == 204:
-        print('Notification envoyée avec succès.')
+        print('Notification discord envoyée avec succès.')
     else:
-        print('Échec de l\'envoi de la notification.')
+        print('Échec de l\'envoi de la notification discord.')
 
 
 send_tweet(twitter_consumer_key, twitter_consumer_secret, twitter_access_token, twitter_access_token_secret, twitter_bearer_token, notification_message)
