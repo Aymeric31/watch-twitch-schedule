@@ -1,9 +1,8 @@
 name: event-schedule-comparer
 
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: "0 17 * * 1" # runs at 18:00 each Monday
 
 jobs:
   push-json:
@@ -50,6 +49,14 @@ jobs:
         fi
 
     - name: Comparer les fichiers JSON
+      env:
+        TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
+        TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+        TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+        TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+        TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        TWITCH_USERNAME: ${{ secrets.TWITCH_USERNAME }}
       id: compare_json
       run: |
         if diff -q events.json events-new.json; then
@@ -64,4 +71,5 @@ jobs:
           git commit -m "events.json updated"
           # Poussez les modifications vers GitHub
           git push origin master
+          python sendnotif.py
         fi
