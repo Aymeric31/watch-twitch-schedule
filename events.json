@@ -1,20 +1,38 @@
 [
     {
-        "segment_id": "eyJzZWdtZW50SUQiOiJmZWVjYzU5Yy02Zjg2LTRkMDctODY4NS0yNTA2MGU1N2QzODYiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjoyN30=",
-        "start_time": "2023-07-07T15:00:00Z",
-        "end_time": "2023-07-07T18:00:00Z",
-        "title": "Le stream du vendredi",
-        "category_id": null,
-        "category_name": null,
+        "segment_id": "eyJzZWdtZW50SUQiOiJiNzMzN2NjYS1mMGY0LTQ1MjItOGIxZS1jOWQ4YzA5NjVkNmUiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjoyOH0=",
+        "start_time": "2023-07-11T19:00:00Z",
+        "end_time": "2023-07-11T22:00:00Z",
+        "title": "Le stream du mardi",
+        "category_id": "294724507",
+        "category_name": "The Last of Us Part I",
         "is_recurring": true
     },
     {
-        "segment_id": "eyJzZWdtZW50SUQiOiIyMjA3Yzg4Yi1hNzExLTQ4MGQtYTM4YS0wMzA3ZmM2NTgzZDQiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjoyN30=",
-        "start_time": "2023-07-09T19:00:00Z",
-        "end_time": "2023-07-09T22:00:00Z",
-        "title": "Le stream du dimanche ( en trio )",
-        "category_id": "33214",
-        "category_name": "Fortnite",
+        "segment_id": "eyJzZWdtZW50SUQiOiIxZTlkY2NlZS04NGI5LTQxY2ItYTRlYy0xMDJiMGMxZjU1ZDIiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjoyOH0=",
+        "start_time": "2023-07-13T19:00:00Z",
+        "end_time": "2023-07-13T22:00:00Z",
+        "title": "Le stream du Jeudi",
+        "category_id": "294724507",
+        "category_name": "The Last of Us Part I",
+        "is_recurring": true
+    },
+    {
+        "segment_id": "eyJzZWdtZW50SUQiOiJmZWVjYzU5Yy02Zjg2LTRkMDctODY4NS0yNTA2MGU1N2QzODYiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjoyOH0=",
+        "start_time": "2023-07-14T19:00:00Z",
+        "end_time": "2023-07-14T22:00:00Z",
+        "title": "Le stream du vendredi",
+        "category_id": "294724507",
+        "category_name": "The Last of Us Part I",
+        "is_recurring": true
+    },
+    {
+        "segment_id": "eyJzZWdtZW50SUQiOiIyMjA3Yzg4Yi1hNzExLTQ4MGQtYTM4YS0wMzA3ZmM2NTgzZDQiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjoyOH0=",
+        "start_time": "2023-07-16T19:00:00Z",
+        "end_time": "2023-07-16T22:00:00Z",
+        "title": "Le stream du dimanche",
+        "category_id": null,
+        "category_name": null,
         "is_recurring": true
     }
 ]
