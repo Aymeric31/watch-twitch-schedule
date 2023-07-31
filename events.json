@@ -1,35 +1,35 @@
 [
     {
-        "segment_id": "eyJzZWdtZW50SUQiOiJiNzMzN2NjYS1mMGY0LTQ1MjItOGIxZS1jOWQ4YzA5NjVkNmUiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjozMH0=",
-        "start_time": "2023-07-25T19:00:00Z",
-        "end_time": "2023-07-25T22:00:00Z",
+        "segment_id": "eyJzZWdtZW50SUQiOiJiNzMzN2NjYS1mMGY0LTQ1MjItOGIxZS1jOWQ4YzA5NjVkNmUiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjozMX0=",
+        "start_time": "2023-08-01T19:00:00Z",
+        "end_time": "2023-08-01T22:00:00Z",
         "title": "Le stream du mardi",
         "category_id": "418721827",
         "category_name": "Life is Strange Remastered",
         "is_recurring": true
     },
     {
-        "segment_id": "eyJzZWdtZW50SUQiOiIxZTlkY2NlZS04NGI5LTQxY2ItYTRlYy0xMDJiMGMxZjU1ZDIiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjozMH0=",
-        "start_time": "2023-07-27T19:00:00Z",
-        "end_time": "2023-07-27T22:00:00Z",
+        "segment_id": "eyJzZWdtZW50SUQiOiIxZTlkY2NlZS04NGI5LTQxY2ItYTRlYy0xMDJiMGMxZjU1ZDIiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjozMX0=",
+        "start_time": "2023-08-03T19:00:00Z",
+        "end_time": "2023-08-03T22:00:00Z",
         "title": "Le stream du jeudi",
         "category_id": "418721827",
         "category_name": "Life is Strange Remastered",
         "is_recurring": true
     },
     {
-        "segment_id": "eyJzZWdtZW50SUQiOiJmZWVjYzU5Yy02Zjg2LTRkMDctODY4NS0yNTA2MGU1N2QzODYiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjozMH0=",
-        "start_time": "2023-07-28T19:00:00Z",
-        "end_time": "2023-07-28T22:00:00Z",
+        "segment_id": "eyJzZWdtZW50SUQiOiJmZWVjYzU5Yy02Zjg2LTRkMDctODY4NS0yNTA2MGU1N2QzODYiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjozMX0=",
+        "start_time": "2023-08-04T19:00:00Z",
+        "end_time": "2023-08-04T22:00:00Z",
         "title": "Le stream du vendredi",
         "category_id": "418721827",
         "category_name": "Life is Strange Remastered",
         "is_recurring": true
     },
     {
-        "segment_id": "eyJzZWdtZW50SUQiOiIyMjA3Yzg4Yi1hNzExLTQ4MGQtYTM4YS0wMzA3ZmM2NTgzZDQiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjozMH0=",
-        "start_time": "2023-07-30T19:00:00Z",
-        "end_time": "2023-07-30T22:00:00Z",
+        "segment_id": "eyJzZWdtZW50SUQiOiIyMjA3Yzg4Yi1hNzExLTQ4MGQtYTM4YS0wMzA3ZmM2NTgzZDQiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjozMX0=",
+        "start_time": "2023-08-06T19:00:00Z",
+        "end_time": "2023-08-06T22:00:00Z",
         "title": "Le stream du dimanche",
         "category_id": "313146",
         "category_name": "Darkwood",
