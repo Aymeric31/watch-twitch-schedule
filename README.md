@@ -8,7 +8,7 @@ Welcome to the Watch twitch schedule project!
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
 - [Usage](#usage)
-- [Technologies Used](#technologies-used) ## Technologies Used
+- [Technologies Used](#technologies-used)
 - [License](#license)
 
 ## Introduction
