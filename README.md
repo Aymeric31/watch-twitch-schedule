@@ -83,5 +83,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Technologies Used
 
-Python (lib: tweepy)
-
+- Python (lib: tweepy, dotenv)
+- Twitch API
+- Twitter API
