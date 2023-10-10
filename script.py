@@ -5,42 +5,46 @@ import os
 from datetime import datetime
 import json
 
+# Load environment variables
 load_dotenv()
 twitch_client_id = os.environ.get('TWITCH_CLIENT_ID')
 twitch_broadcaster_id = os.environ.get('TWITCH_BROADCASTER_ID')
 twitch_access_token = os.environ.get('TWITCH_ACCESS_TOKEN')
 
+# Set Twitch API headers
 headers = {
     "Client-ID": twitch_client_id,
     "Authorization": f'Bearer {twitch_access_token}'
 }
 
+# Define the Twitch API URL
 url = f'https://api.twitch.tv/helix/schedule?broadcaster_id={twitch_broadcaster_id}'
 
+# Send a GET request to the Twitch API
 response = requests.get(url, headers=headers)
 data = response.json()
 
-# Vérification si la clé "data" existe dans le dictionnaire
+# Check if the 'data' key exists in the API response
 if 'data' in data:
     segments = data['data']['segments']
     
-    # Liste pour stocker les informations extraites
+    # List to store extracted event information
     events = []
     
-    # Obtenir la date actuelle
-    date_actuelle = datetime.now()
-    
-    # Obtenir le numéro de la semaine actuelle
-    semaine_actuelle = date_actuelle.isocalendar()[1]
+    # Get the current date and week number
+    current_date = datetime.now()
+    current_week = current_date.isocalendar()[1]
 
-    # Parcourir chaque segment
+    # Iterate through each segment
     for segment in segments:
+        # Extract segment data
         segment_id = segment['id']
         start_time = segment['start_time']
         end_time = segment['end_time']
         title = segment['title']
         is_recurring = segment['is_recurring']
-        # Vérifier si le champ 'category' est présent et obtenir l'ID de la catégorie
+        
+        # Check if the 'category' field is present and obtain the category ID.
         if segment['category'] is not None:
             if segment['category']['id'] and segment['category']['name'] is not None:
                 category_id = segment['category']['id']
@@ -52,36 +56,45 @@ if 'data' in data:
             category_id = None
             category_name = None
             
-        # Obtenir la date de début de l'événement
+        # Convert start_time to a datetime object
         event_start_date = datetime.strptime(start_time, "%Y-%m-%dT%H:%M:%S%z")
-
-        # Obtenir le numéro de la semaine de l'événement
+        
+        # Get week and day of the event
         event_week = event_start_date.isocalendar()[1]
+        event_day = event_start_date.isocalendar()[2]
 
-        # Vérifier si l'événement se déroule dans la semaine actuelle
-        if event_week == semaine_actuelle:
-            # Créer un dictionnaire pour stocker les informations de l'événement actuel
+        # Extract hour from start_time and end_time
+        start_time = datetime.strptime(segment['start_time'], "%Y-%m-%dT%H:%M:%S%z")
+        start_time_hour = start_time.strftime("%H:%M")
+        
+        end_time = datetime.strptime(segment['end_time'], "%Y-%m-%dT%H:%M:%S%z")
+        end_time_hour = end_time.strftime("%H:%M")
+
+        # Check if the event is in the current week
+        if event_week == current_week:
+            # Create an event dictionary
             event = {
-                'segment_id': segment_id,
-                'start_time': start_time,
-                'end_time': end_time,
+                'start_time': start_time_hour,
+                'end_time': end_time_hour,
+                'event_day': event_day,
                 'title': title,
                 'category_id': category_id,
                 'category_name': category_name,
                 'is_recurring': is_recurring
             }
         
-            # Ajouter le dictionnaire de l'événement à la liste des événements
+            # Add the event dictionary to the list of events
             events.append(event)
         else:
-            print("Event non présent dans la semaine en cours")
-    # Trier les segments par date dans l'ordre croissant
-    events.sort(key=lambda x: x['start_time'])
+            print(f"Event from {event_start_date} not present in the current week")
     
-    # Écrire les données dans un fichier JSON
+    # Sort events by start_time
+    events.sort(key=lambda x: x['event_day'])
+    
+    # Write the data to a JSON file
     with open('events-new.json', 'w') as json_file:
         json.dump(events, json_file, indent=4)
     
-    print("Les données ont été enregistrées dans events.json.")
+    print("Data has been saved in events-new.json.")
 else:
-    print("Clé 'data' introuvable dans le dictionnaire.")
+    print("Key 'data' not found in the dictionary.")

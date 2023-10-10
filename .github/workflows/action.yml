@@ -34,21 +34,21 @@ jobs:
         TWITCH_ACCESS_TOKEN: ${{ secrets.TWITCH_ACCESS_TOKEN }}
       run: |
         if [ -f events.json ]; then
-          echo "Le fichier events.json existe déjà."
+          echo "The file events.json already exists."
           python script.py
         else
-          echo "Le fichier events.json n'existe pas."
-          # Exécutez le script pour créer le fichier events.json
+          echo "The file events.json does not exist."
+          # Execute the script to create the events.json file
           python init_json.py
-          # Ajoutez le fichier events.json au commit
+          # Add the events.json file to the commit
           git add events.json
-          # Effectuez le commit avec un message approprié
+          # Commit with an appropriate message
           git commit -m "events.json added"
-          # Poussez les modifications vers GitHub
+          # Push the changes to GitHub
           git push origin master
         fi
 
-    - name: Comparer les fichiers JSON
+    - name: Compare JSON files
       env:
         TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
         TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
@@ -60,16 +60,17 @@ jobs:
       id: compare_json
       run: |
         if diff -q events.json events-new.json; then
-          echo "Les fichiers JSON sont identiques."
+          echo "The JSON files are identical."
+          python sendnotifsame.py
         else
-          echo "Le planning a été mis à jour."
-          # Remplacez l'ancien fichier events.json par le nouveau fichier events-new.json
+          echo "The schedule has been updated."
+          # Replace the old events.json file with the new events-new.json file
           mv events-new.json events.json
-          # Ajoutez le fichier events.json au commit
+          # Add the events.json file to the commit
           git add events.json
-          # Effectuez le commit avec un message approprié
+          # Commit with an appropriate message
           git commit -m "events.json updated"
-          # Poussez les modifications vers GitHub
+          # Push the changes to GitHub
           git push origin master
-          python sendnotif.py
+          python sendnotifupdated.py
         fi
