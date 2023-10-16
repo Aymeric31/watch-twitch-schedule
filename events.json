@@ -1,35 +1,35 @@
 [
     {
-        "segment_id": "eyJzZWdtZW50SUQiOiJkMGFhNmZhZS1kOTJiLTRhMGYtYTMxOC0xOTRiMjE3NTc1ZTgiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjo0MX0=",
-        "start_time": "2023-10-10T19:00:00Z",
-        "end_time": "2023-10-10T22:00:00Z",
+        "start_time": "19:00",
+        "end_time": "22:00",
+        "event_day": 2,
         "title": "Le stream du mardi",
         "category_id": "31339",
         "category_name": "Project Zomboid",
         "is_recurring": true
     },
     {
-        "segment_id": "eyJzZWdtZW50SUQiOiJiNzMzN2NjYS1mMGY0LTQ1MjItOGIxZS1jOWQ4YzA5NjVkNmUiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjo0MX0=",
-        "start_time": "2023-10-11T19:00:00Z",
-        "end_time": "2023-10-11T22:00:00Z",
+        "start_time": "19:00",
+        "end_time": "22:00",
+        "event_day": 3,
         "title": "Le stream du mercredi",
         "category_id": "31339",
         "category_name": "Project Zomboid",
         "is_recurring": true
     },
     {
-        "segment_id": "eyJzZWdtZW50SUQiOiIyZjk3OTJjMC03ZDdiLTQyOWYtYmRlNC03ZTQ5YzNlZjhiMmEiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjo0MX0=",
-        "start_time": "2023-10-13T19:00:00Z",
-        "end_time": "2023-10-13T22:00:00Z",
+        "start_time": "19:00",
+        "end_time": "22:00",
+        "event_day": 5,
         "title": "Le stream du vendredi",
         "category_id": "31339",
         "category_name": "Project Zomboid",
         "is_recurring": true
     },
     {
-        "segment_id": "eyJzZWdtZW50SUQiOiIyMjA3Yzg4Yi1hNzExLTQ4MGQtYTM4YS0wMzA3ZmM2NTgzZDQiLCJpc29ZZWFyIjoyMDIzLCJpc29XZWVrIjo0MX0=",
-        "start_time": "2023-10-15T19:00:00Z",
-        "end_time": "2023-10-15T22:00:00Z",
+        "start_time": "19:00",
+        "end_time": "22:00",
+        "event_day": 7,
         "title": "Le stream du dimanche",
         "category_id": "31339",
         "category_name": "Project Zomboid",
