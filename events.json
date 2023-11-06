@@ -1,9 +1,18 @@
 [
     {
+        "start_time": "19:00",
+        "end_time": "22:00",
+        "event_day": 2,
+        "title": "D\u00e9gustation PIZZA DE LA MAMA",
+        "category_id": "509667",
+        "category_name": "Food & Drink",
+        "is_recurring": true
+    },
+    {
         "start_time": "20:00",
         "end_time": "23:00",
-        "event_day": 2,
-        "title": "Le stream du mardi",
+        "event_day": 3,
+        "title": "Le stream du mercredi",
         "category_id": "31339",
         "category_name": "Project Zomboid",
         "is_recurring": true
@@ -30,9 +39,9 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 7,
-        "title": "Le stream du dimanche",
-        "category_id": "31339",
-        "category_name": "Project Zomboid",
+        "title": "Le stream horreur du dimanche",
+        "category_id": "68000",
+        "category_name": "The Evil Within",
         "is_recurring": true
     }
 ]
