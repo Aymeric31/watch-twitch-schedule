@@ -1,11 +1,11 @@
 [
     {
-        "start_time": "19:00",
-        "end_time": "22:00",
+        "start_time": "20:00",
+        "end_time": "23:00",
         "event_day": 2,
-        "title": "D\u00e9gustation PIZZA DE LA MAMA",
-        "category_id": "509667",
-        "category_name": "Food & Drink",
+        "title": "Le stream du lundi",
+        "category_id": "31339",
+        "category_name": "Project Zomboid",
         "is_recurring": true
     },
     {
