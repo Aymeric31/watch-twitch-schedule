@@ -2,6 +2,15 @@
     {
         "start_time": "20:00",
         "end_time": "23:00",
+        "event_day": 1,
+        "title": "Le stream inattendu du lundi",
+        "category_id": "31339",
+        "category_name": "Project Zomboid",
+        "is_recurring": false
+    },
+    {
+        "start_time": "20:00",
+        "end_time": "23:00",
         "event_day": 2,
         "title": "Le stream du mardi",
         "category_id": "31339",
