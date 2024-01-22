@@ -3,7 +3,7 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 2,
-        "title": "Tuesday's Livestream",
+        "title": "Live du mardi",
         "category_id": "31339",
         "category_name": "Project Zomboid",
         "is_recurring": true
@@ -12,16 +12,16 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 3,
-        "title": "Wednesday's Livestream",
+        "title": "Live du mercredi",
         "category_id": "31339",
         "category_name": "Project Zomboid",
         "is_recurring": true
     },
     {
-        "start_time": "19:00",
-        "end_time": "22:00",
+        "start_time": "20:00",
+        "end_time": "23:00",
         "event_day": 4,
-        "title": "ThursDayz's Livestream",
+        "title": "Live du jeudi",
         "category_id": "65632",
         "category_name": "DayZ",
         "is_recurring": true
@@ -30,7 +30,7 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 5,
-        "title": "Friday's Livestream",
+        "title": "Live du vendredi",
         "category_id": "31339",
         "category_name": "Project Zomboid",
         "is_recurring": true
@@ -39,7 +39,7 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 7,
-        "title": "SunDayz's Livestream",
+        "title": "Live du dimanche",
         "category_id": "65632",
         "category_name": "DayZ",
         "is_recurring": true
