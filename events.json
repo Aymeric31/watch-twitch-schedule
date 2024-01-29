@@ -2,6 +2,15 @@
     {
         "start_time": "20:00",
         "end_time": "23:00",
+        "event_day": 1,
+        "title": "Le stream inattendu du lundi",
+        "category_id": "31339",
+        "category_name": "Project Zomboid",
+        "is_recurring": false
+    },
+    {
+        "start_time": "20:00",
+        "end_time": "23:00",
         "event_day": 2,
         "title": "Live du mardi",
         "category_id": "31339",
@@ -39,9 +48,9 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 7,
-        "title": "Live du dimanche",
-        "category_id": "65632",
-        "category_name": "DayZ",
+        "title": "Le jeu de mrd du dimanche",
+        "category_id": "497437",
+        "category_name": "The Evil Within 2",
         "is_recurring": true
     }
 ]
