@@ -21,9 +21,9 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 4,
-        "title": "Live du jeudi",
-        "category_id": "31339",
-        "category_name": "Project Zomboid",
+        "title": "Live du jeudi ( DayZ ou PZ )",
+        "category_id": null,
+        "category_name": null,
         "is_recurring": true
     },
     {
@@ -39,9 +39,9 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 7,
-        "title": "Le jeu de mrd du dimanche",
-        "category_id": "497437",
-        "category_name": "The Evil Within 2",
+        "title": "Le jeu gratuit d'Epic Games",
+        "category_id": "1540116959",
+        "category_name": "Marvel's Guardians of the Galaxy",
         "is_recurring": true
     }
 ]
