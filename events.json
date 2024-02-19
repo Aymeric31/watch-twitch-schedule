@@ -21,9 +21,9 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 4,
-        "title": "Live du jeudi ( DayZ ou PZ )",
-        "category_id": null,
-        "category_name": null,
+        "title": "C'est jeudayz !",
+        "category_id": "65632",
+        "category_name": "DayZ",
         "is_recurring": true
     },
     {
