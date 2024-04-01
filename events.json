@@ -1,16 +1,25 @@
 [
     {
-        "start_time": "20:00",
-        "end_time": "23:00",
-        "event_day": 2,
-        "title": "Live du mardi",
+        "start_time": "19:00",
+        "end_time": "22:00",
+        "event_day": 1,
+        "title": "Poisson d'avril ! Je stream ou pas",
         "category_id": "489063",
         "category_name": "Barony",
+        "is_recurring": false
+    },
+    {
+        "start_time": "19:00",
+        "end_time": "22:00",
+        "event_day": 2,
+        "title": "Live du mardi",
+        "category_id": "1910103699",
+        "category_name": "THE FINALS",
         "is_recurring": true
     },
     {
-        "start_time": "20:00",
-        "end_time": "23:00",
+        "start_time": "19:00",
+        "end_time": "22:00",
         "event_day": 3,
         "title": "Live du mercredi",
         "category_id": "489063",
@@ -18,17 +27,17 @@
         "is_recurring": true
     },
     {
-        "start_time": "20:00",
-        "end_time": "23:00",
+        "start_time": "19:00",
+        "end_time": "22:00",
         "event_day": 4,
-        "title": "Le stream du jeudi",
-        "category_id": "1910103699",
-        "category_name": "THE FINALS",
+        "title": "Live du jeudi",
+        "category_id": "31339",
+        "category_name": "Project Zomboid",
         "is_recurring": true
     },
     {
-        "start_time": "20:00",
-        "end_time": "23:00",
+        "start_time": "19:00",
+        "end_time": "22:00",
         "event_day": 5,
         "title": "Live du vendredi",
         "category_id": "1910103699",
