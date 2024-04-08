@@ -3,9 +3,9 @@
         "start_time": "19:00",
         "end_time": "22:00",
         "event_day": 1,
-        "title": "Poisson d'avril ! Je stream ou pas",
-        "category_id": "489063",
-        "category_name": "Barony",
+        "title": "Le stream inattendu du lundi",
+        "category_id": "1910103699",
+        "category_name": "THE FINALS",
         "is_recurring": false
     },
     {
@@ -31,8 +31,8 @@
         "end_time": "22:00",
         "event_day": 4,
         "title": "Live du jeudi",
-        "category_id": "31339",
-        "category_name": "Project Zomboid",
+        "category_id": "33214",
+        "category_name": "Fortnite",
         "is_recurring": true
     },
     {
@@ -49,8 +49,8 @@
         "end_time": "22:00",
         "event_day": 7,
         "title": "Le jeu gratuit d'Epic Games",
-        "category_id": "1540116959",
-        "category_name": "Marvel's Guardians of the Galaxy",
+        "category_id": null,
+        "category_name": null,
         "is_recurring": true
     }
 ]
