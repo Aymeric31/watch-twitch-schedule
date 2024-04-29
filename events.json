@@ -39,9 +39,9 @@
         "start_time": "19:00",
         "end_time": "22:00",
         "event_day": 7,
-        "title": "Le jeu gratuit d'Epic Games",
-        "category_id": null,
-        "category_name": null,
+        "title": "Le dimanche SIFU",
+        "category_id": "506089309",
+        "category_name": "SIFU",
         "is_recurring": true
     }
 ]
