@@ -2,10 +2,19 @@
     {
         "start_time": "19:00",
         "end_time": "22:00",
+        "event_day": 1,
+        "title": "Le stream inattendu du lundi",
+        "category_id": "33214",
+        "category_name": "Fortnite",
+        "is_recurring": false
+    },
+    {
+        "start_time": "19:00",
+        "end_time": "22:00",
         "event_day": 2,
         "title": "Live du mardi",
-        "category_id": "1910103699",
-        "category_name": "THE FINALS",
+        "category_id": "33214",
+        "category_name": "Fortnite",
         "is_recurring": true
     },
     {
@@ -13,8 +22,8 @@
         "end_time": "22:00",
         "event_day": 3,
         "title": "Live du mercredi",
-        "category_id": "1910103699",
-        "category_name": "THE FINALS",
+        "category_id": "33214",
+        "category_name": "Fortnite",
         "is_recurring": true
     },
     {
@@ -31,17 +40,17 @@
         "end_time": "22:00",
         "event_day": 5,
         "title": "Live du vendredi",
-        "category_id": "1910103699",
-        "category_name": "THE FINALS",
+        "category_id": "33214",
+        "category_name": "Fortnite",
         "is_recurring": true
     },
     {
         "start_time": "19:00",
         "end_time": "22:00",
         "event_day": 7,
-        "title": "Le dimanche SIFU",
-        "category_id": "506089309",
-        "category_name": "SIFU",
+        "title": "Le jeu solo du dimanche",
+        "category_id": null,
+        "category_name": null,
         "is_recurring": true
     }
 ]
