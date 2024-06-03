@@ -2,15 +2,6 @@
     {
         "start_time": "19:00",
         "end_time": "22:00",
-        "event_day": 1,
-        "title": "Le stream inattendu du lundi",
-        "category_id": "1910103699",
-        "category_name": "THE FINALS",
-        "is_recurring": false
-    },
-    {
-        "start_time": "19:00",
-        "end_time": "22:00",
         "event_day": 2,
         "title": "Live du mardi",
         "category_id": "1910103699",
@@ -22,8 +13,8 @@
         "end_time": "22:00",
         "event_day": 3,
         "title": "Live du mercredi",
-        "category_id": "1910103699",
-        "category_name": "THE FINALS",
+        "category_id": "68351",
+        "category_name": "Mount & Blade II: Bannerlord",
         "is_recurring": true
     },
     {
@@ -48,9 +39,9 @@
         "start_time": "19:00",
         "end_time": "22:00",
         "event_day": 7,
-        "title": "Le jeu solo du dimanche",
-        "category_id": null,
-        "category_name": null,
+        "title": "Dimanche m\u00e9dieval",
+        "category_id": "68351",
+        "category_name": "Mount & Blade II: Bannerlord",
         "is_recurring": true
     }
 ]
