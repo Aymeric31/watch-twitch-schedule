@@ -2,15 +2,6 @@
     {
         "start_time": "19:00",
         "end_time": "22:00",
-        "event_day": 1,
-        "title": "Le stream inattendu du Lundi",
-        "category_id": "513942",
-        "category_name": "Orcs Must Die! 3",
-        "is_recurring": false
-    },
-    {
-        "start_time": "19:00",
-        "end_time": "22:00",
         "event_day": 2,
         "title": "Live du mardi",
         "category_id": "1910103699",
