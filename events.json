@@ -2,6 +2,15 @@
     {
         "start_time": "19:00",
         "end_time": "22:00",
+        "event_day": 1,
+        "title": "Live innatendu du lundi",
+        "category_id": null,
+        "category_name": null,
+        "is_recurring": false
+    },
+    {
+        "start_time": "19:00",
+        "end_time": "22:00",
         "event_day": 2,
         "title": "Live du mardi",
         "category_id": "1910103699",
