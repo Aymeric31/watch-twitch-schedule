@@ -1,12 +1,12 @@
 [
     {
         "start_time": "19:00",
-        "end_time": "22:00",
+        "end_time": "23:00",
         "event_day": 1,
-        "title": "Le stream du lundi inattendu !",
-        "category_id": null,
-        "category_name": null,
-        "is_recurring": false
+        "title": "Le live inattendu du Lundi",
+        "category_id": "1910103699",
+        "category_name": "THE FINALS",
+        "is_recurring": true
     },
     {
         "start_time": "19:00",
@@ -39,7 +39,7 @@
         "start_time": "19:00",
         "end_time": "22:00",
         "event_day": 5,
-        "title": "Live du vendredi",
+        "title": "Live du vendredi incertain",
         "category_id": "1910103699",
         "category_name": "THE FINALS",
         "is_recurring": true
