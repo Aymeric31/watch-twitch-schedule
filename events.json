@@ -1,7 +1,7 @@
 [
     {
-        "start_time": "19:00",
-        "end_time": "21:00",
+        "start_time": "20:00",
+        "end_time": "22:00",
         "event_day": 2,
         "title": "Live du mardi",
         "category_id": "1910103699",
@@ -9,17 +9,35 @@
         "is_recurring": true
     },
     {
+        "start_time": "20:00",
+        "end_time": "23:00",
+        "event_day": 2,
+        "title": "LIVE HALLOWEEN",
+        "category_id": "458443",
+        "category_name": "Alien: Isolation",
+        "is_recurring": false
+    },
+    {
+        "start_time": "20:00",
+        "end_time": "23:00",
+        "event_day": 3,
+        "title": "Le stream du mercredi inattendu",
+        "category_id": null,
+        "category_name": null,
+        "is_recurring": false
+    },
+    {
         "start_time": "19:00",
         "end_time": "22:00",
         "event_day": 5,
-        "title": "Live du vendredi",
+        "title": "Live veille de tournoi badminton",
         "category_id": "1910103699",
         "category_name": "THE FINALS",
         "is_recurring": true
     },
     {
-        "start_time": "20:00",
-        "end_time": "23:00",
+        "start_time": "19:00",
+        "end_time": "21:00",
         "event_day": 7,
         "title": "Le stream du dimanche",
         "category_id": null,
