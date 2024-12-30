@@ -2,6 +2,15 @@
     {
         "start_time": "20:00",
         "end_time": "23:00",
+        "event_day": 1,
+        "title": "Le stream avant 2025",
+        "category_id": "1910103699",
+        "category_name": "THE FINALS",
+        "is_recurring": false
+    },
+    {
+        "start_time": "20:00",
+        "end_time": "23:00",
         "event_day": 2,
         "title": "Live du mardi",
         "category_id": "1910103699",
