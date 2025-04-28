@@ -2,7 +2,7 @@ name: event-schedule-comparer
 
 on:
   schedule:
-    - cron: "0 18 * * 1" # runs at 18:00 each Monday
+    - cron: "0 16 * * 1" # runs at 18:00 each Monday
 
 jobs:
   push-json:
