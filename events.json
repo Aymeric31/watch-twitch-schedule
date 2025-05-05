@@ -11,8 +11,17 @@
     {
         "start_time": "19:00",
         "end_time": "22:00",
+        "event_day": 3,
+        "title": "Le stream inattendu du mercredi",
+        "category_id": "458912",
+        "category_name": "Kingdom Come: Deliverance",
+        "is_recurring": false
+    },
+    {
+        "start_time": "15:00",
+        "end_time": "18:00",
         "event_day": 5,
-        "title": "Early stream du vendredi",
+        "title": "Le stream early du vendredi",
         "category_id": "1910103699",
         "category_name": "THE FINALS",
         "is_recurring": true
