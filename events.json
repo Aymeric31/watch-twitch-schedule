@@ -11,6 +11,15 @@
     {
         "start_time": "19:00",
         "end_time": "22:00",
+        "event_day": 4,
+        "title": "Le stream incertain du jeudi",
+        "category_id": "1910103699",
+        "category_name": "THE FINALS",
+        "is_recurring": false
+    },
+    {
+        "start_time": "19:00",
+        "end_time": "22:00",
         "event_day": 5,
         "title": "Le stream du vendredi",
         "category_id": "1910103699",
