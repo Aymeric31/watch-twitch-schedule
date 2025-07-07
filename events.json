@@ -2,11 +2,29 @@
     {
         "start_time": "19:00",
         "end_time": "22:00",
+        "event_day": 1,
+        "title": "Recap tournoi par \u00e9quipe de badminton",
+        "category_id": "509658",
+        "category_name": "Just Chatting",
+        "is_recurring": false
+    },
+    {
+        "start_time": "19:00",
+        "end_time": "22:00",
         "event_day": 2,
         "title": "Live du mardi",
         "category_id": "458912",
         "category_name": "Kingdom Come: Deliverance",
         "is_recurring": true
+    },
+    {
+        "start_time": "19:00",
+        "end_time": "22:00",
+        "event_day": 4,
+        "title": "Stream inattendu du JEUDI",
+        "category_id": "458912",
+        "category_name": "Kingdom Come: Deliverance",
+        "is_recurring": false
     },
     {
         "start_time": "19:00",
