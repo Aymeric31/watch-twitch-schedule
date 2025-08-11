@@ -4,15 +4,15 @@
         "end_time": "22:00",
         "event_day": 2,
         "title": "Live du mardi",
-        "category_id": "458912",
-        "category_name": "Kingdom Come: Deliverance",
+        "category_id": "1910103699",
+        "category_name": "THE FINALS",
         "is_recurring": true
     },
     {
         "start_time": "19:00",
         "end_time": "22:00",
         "event_day": 5,
-        "title": "Le stream du vendredi",
+        "title": "Le stream incertain du vendredi",
         "category_id": "1910103699",
         "category_name": "THE FINALS",
         "is_recurring": true
