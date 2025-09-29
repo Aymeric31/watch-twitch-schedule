@@ -1,14 +1,5 @@
 [
     {
-        "start_time": "13:30",
-        "end_time": "16:30",
-        "event_day": 1,
-        "title": "DECOUVERTE EARLY ACCESS DEADLY DAYS ROADTRIP",
-        "category_id": "987413865",
-        "category_name": "Deadly Days: Roadtrip",
-        "is_recurring": false
-    },
-    {
         "start_time": "19:00",
         "end_time": "22:00",
         "event_day": 2,
