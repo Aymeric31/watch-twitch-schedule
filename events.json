@@ -13,18 +13,9 @@
         "end_time": "23:00",
         "event_day": 5,
         "title": "Le stream incertain du vendredi",
-        "category_id": "1910103699",
-        "category_name": "THE FINALS",
+        "category_id": "987413865",
+        "category_name": "Deadly Days: Roadtrip",
         "is_recurring": true
-    },
-    {
-        "start_time": "09:00",
-        "end_time": "13:00",
-        "event_day": 6,
-        "title": "TOURNOI BADMINTON",
-        "category_id": "518203",
-        "category_name": "Sports",
-        "is_recurring": false
     },
     {
         "start_time": "20:00",
