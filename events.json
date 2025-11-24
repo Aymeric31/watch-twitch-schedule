@@ -1,7 +1,7 @@
 [
     {
-        "start_time": "20:00",
-        "end_time": "23:00",
+        "start_time": "16:00",
+        "end_time": "19:00",
         "event_day": 2,
         "title": "Live du mardi",
         "category_id": "458912",
@@ -12,9 +12,9 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 5,
-        "title": "Le stream incertain du vendredi",
-        "category_id": "987413865",
-        "category_name": "Deadly Days: Roadtrip",
+        "title": "Interclub badminton du vendredi",
+        "category_id": "518203",
+        "category_name": "Sports",
         "is_recurring": true
     },
     {
