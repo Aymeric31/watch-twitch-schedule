@@ -3,10 +3,19 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 2,
-        "title": "Live du mardi",
-        "category_id": "458912",
-        "category_name": "Kingdom Come: Deliverance",
+        "title": "Je sais pas \u00e0 quoi jouer",
+        "category_id": null,
+        "category_name": null,
         "is_recurring": true
+    },
+    {
+        "start_time": "20:00",
+        "end_time": "00:00",
+        "event_day": 4,
+        "title": "Tournoi badminton de soir\u00e9e en SIMPLE",
+        "category_id": "518203",
+        "category_name": "Sports",
+        "is_recurring": false
     },
     {
         "start_time": "20:00",
@@ -16,6 +25,15 @@
         "category_id": "518203",
         "category_name": "Sports",
         "is_recurring": true
+    },
+    {
+        "start_time": "11:00",
+        "end_time": "15:00",
+        "event_day": 7,
+        "title": "Tournoi badminton de DOUBLE HOMME",
+        "category_id": "518203",
+        "category_name": "Sports",
+        "is_recurring": false
     },
     {
         "start_time": "20:00",
