@@ -18,6 +18,15 @@
         "is_recurring": true
     },
     {
+        "start_time": "17:00",
+        "end_time": "22:00",
+        "event_day": 6,
+        "title": "Tournoi B ADMINTON de soir\u00e9e en DOUBLE HOMME",
+        "category_id": "518203",
+        "category_name": "Sports",
+        "is_recurring": false
+    },
+    {
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 7,
