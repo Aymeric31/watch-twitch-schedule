@@ -3,18 +3,18 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 2,
-        "title": "Je sais pas \u00e0 quoi jouer",
-        "category_id": null,
-        "category_name": null,
+        "title": "Le stream du mardi !",
+        "category_id": "1967084783",
+        "category_name": "Marvel's Spider-Man 2",
         "is_recurring": true
     },
     {
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 5,
-        "title": "Interclub badminton du vendredi",
-        "category_id": "518203",
-        "category_name": "Sports",
+        "title": "Un jeu qui jeu",
+        "category_id": null,
+        "category_name": null,
         "is_recurring": true
     },
     {
