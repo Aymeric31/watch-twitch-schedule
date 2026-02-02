@@ -11,19 +11,19 @@
     {
         "start_time": "20:00",
         "end_time": "23:00",
-        "event_day": 4,
-        "title": "Le stream inattendu du jeudi",
-        "category_id": "1967084783",
-        "category_name": "Marvel's Spider-Man 2",
-        "is_recurring": false
-    },
-    {
-        "start_time": "20:00",
-        "end_time": "23:00",
         "event_day": 5,
         "title": "Un jeu qui jeu",
         "category_id": null,
         "category_name": null,
+        "is_recurring": true
+    },
+    {
+        "start_time": "09:00",
+        "end_time": "13:00",
+        "event_day": 6,
+        "title": "Tournoi BADMINTON",
+        "category_id": "518203",
+        "category_name": "Sports",
         "is_recurring": true
     },
     {
