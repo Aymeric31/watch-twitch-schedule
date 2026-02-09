@@ -2,6 +2,15 @@
     {
         "start_time": "20:00",
         "end_time": "23:00",
+        "event_day": 1,
+        "title": "Le stream inattendu du Lundi",
+        "category_id": "1762510812",
+        "category_name": "LORT",
+        "is_recurring": false
+    },
+    {
+        "start_time": "20:00",
+        "end_time": "23:00",
         "event_day": 2,
         "title": "Le stream du mardi !",
         "category_id": "1967084783",
@@ -12,9 +21,9 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 5,
-        "title": "Un jeu qui jeu",
-        "category_id": null,
-        "category_name": null,
+        "title": "Le stream du vendredi",
+        "category_id": "1967084783",
+        "category_name": "Marvel's Spider-Man 2",
         "is_recurring": true
     },
     {
