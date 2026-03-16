@@ -10,15 +10,24 @@
     },
     {
         "start_time": "20:00",
+        "end_time": "21:00",
+        "event_day": 4,
+        "title": "Interclubs de badminton !",
+        "category_id": "518203",
+        "category_name": "Sports",
+        "is_recurring": false
+    },
+    {
+        "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 5,
-        "title": "Le stream du vendredi ( pas sure )",
+        "title": "Le stream du vendredi",
         "category_id": "1762510812",
         "category_name": "LORT",
         "is_recurring": true
     },
     {
-        "start_time": "09:00",
+        "start_time": "08:00",
         "end_time": "13:00",
         "event_day": 6,
         "title": "Tournoi BADMINTON",
@@ -30,9 +39,9 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 7,
-        "title": "Le stream du dimanche",
-        "category_id": "1910103699",
-        "category_name": "THE FINALS",
+        "title": "Le stream horreur du dimanche",
+        "category_id": "1840896223",
+        "category_name": "REANIMAL",
         "is_recurring": true
     }
 ]
