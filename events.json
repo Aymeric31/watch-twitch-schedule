@@ -4,31 +4,22 @@
         "end_time": "23:00",
         "event_day": 2,
         "title": "Le stream du mardi !",
-        "category_id": "1967084783",
-        "category_name": "Marvel's Spider-Man 2",
+        "category_id": "496735",
+        "category_name": "Barotrauma",
         "is_recurring": true
-    },
-    {
-        "start_time": "20:00",
-        "end_time": "21:00",
-        "event_day": 4,
-        "title": "Interclubs de badminton !",
-        "category_id": "518203",
-        "category_name": "Sports",
-        "is_recurring": false
     },
     {
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 5,
-        "title": "Le stream du vendredi",
-        "category_id": "1762510812",
-        "category_name": "LORT",
+        "title": "INTERCLUBS BADMINTON",
+        "category_id": "518203",
+        "category_name": "Sports",
         "is_recurring": true
     },
     {
-        "start_time": "08:00",
-        "end_time": "13:00",
+        "start_time": "17:00",
+        "end_time": "22:00",
         "event_day": 6,
         "title": "Tournoi BADMINTON",
         "category_id": "518203",
@@ -36,8 +27,8 @@
         "is_recurring": true
     },
     {
-        "start_time": "20:00",
-        "end_time": "23:00",
+        "start_time": "19:00",
+        "end_time": "22:00",
         "event_day": 7,
         "title": "Le stream horreur du dimanche",
         "category_id": "1840896223",
