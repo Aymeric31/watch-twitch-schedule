@@ -1,7 +1,7 @@
 [
     {
-        "start_time": "20:00",
-        "end_time": "23:00",
+        "start_time": "19:00",
+        "end_time": "22:00",
         "event_day": 2,
         "title": "Le stream du mardi !",
         "category_id": "496735",
@@ -9,8 +9,8 @@
         "is_recurring": true
     },
     {
-        "start_time": "20:00",
-        "end_time": "23:00",
+        "start_time": "19:00",
+        "end_time": "22:00",
         "event_day": 5,
         "title": "INTERCLUBS BADMINTON",
         "category_id": "518203",
@@ -18,8 +18,8 @@
         "is_recurring": true
     },
     {
-        "start_time": "17:00",
-        "end_time": "22:00",
+        "start_time": "16:00",
+        "end_time": "21:00",
         "event_day": 6,
         "title": "Tournoi BADMINTON",
         "category_id": "518203",
