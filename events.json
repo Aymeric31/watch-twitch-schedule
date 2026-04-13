@@ -2,29 +2,11 @@
     {
         "start_time": "19:00",
         "end_time": "22:00",
-        "event_day": 1,
-        "title": "Le stream de P\u00e2ques !",
-        "category_id": "1910103699",
-        "category_name": "THE FINALS",
-        "is_recurring": false
-    },
-    {
-        "start_time": "19:00",
-        "end_time": "22:00",
         "event_day": 2,
         "title": "Le stream du mardi !",
         "category_id": "496735",
         "category_name": "Barotrauma",
         "is_recurring": true
-    },
-    {
-        "start_time": "19:00",
-        "end_time": "20:00",
-        "event_day": 4,
-        "title": "INTERCLUB BADMINTON",
-        "category_id": "518203",
-        "category_name": "Sports",
-        "is_recurring": false
     },
     {
         "start_time": "19:00",
