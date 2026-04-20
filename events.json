@@ -4,22 +4,22 @@
         "end_time": "22:00",
         "event_day": 2,
         "title": "Le stream du mardi !",
-        "category_id": "496735",
-        "category_name": "Barotrauma",
+        "category_id": "489335",
+        "category_name": "Outer Wilds",
         "is_recurring": true
     },
     {
         "start_time": "19:00",
         "end_time": "22:00",
         "event_day": 5,
-        "title": "Un jeu mais LEQUEL ?",
-        "category_id": null,
-        "category_name": null,
+        "title": "Le stream du vendredi",
+        "category_id": "489335",
+        "category_name": "Outer Wilds",
         "is_recurring": true
     },
     {
-        "start_time": "09:00",
-        "end_time": "14:00",
+        "start_time": "13:00",
+        "end_time": "18:00",
         "event_day": 6,
         "title": "Tournoi BADMINTON",
         "category_id": "518203",
@@ -27,12 +27,21 @@
         "is_recurring": true
     },
     {
+        "start_time": "07:00",
+        "end_time": "11:00",
+        "event_day": 7,
+        "title": "Tournoi badminton",
+        "category_id": "518203",
+        "category_name": "Sports",
+        "is_recurring": false
+    },
+    {
         "start_time": "19:00",
         "end_time": "22:00",
         "event_day": 7,
         "title": "Le stream horreur du dimanche",
-        "category_id": "1840896223",
-        "category_name": "REANIMAL",
+        "category_id": "1924423660",
+        "category_name": "NO-SKIN",
         "is_recurring": true
     }
 ]
