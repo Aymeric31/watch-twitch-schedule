@@ -27,21 +27,12 @@
         "is_recurring": true
     },
     {
-        "start_time": "07:00",
-        "end_time": "11:00",
-        "event_day": 7,
-        "title": "Tournoi badminton",
-        "category_id": "518203",
-        "category_name": "Sports",
-        "is_recurring": false
-    },
-    {
         "start_time": "19:00",
         "end_time": "22:00",
         "event_day": 7,
         "title": "Le stream horreur du dimanche",
-        "category_id": "1924423660",
-        "category_name": "NO-SKIN",
+        "category_id": null,
+        "category_name": null,
         "is_recurring": true
     }
 ]
