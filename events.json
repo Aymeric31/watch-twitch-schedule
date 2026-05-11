@@ -9,17 +9,17 @@
         "is_recurring": true
     },
     {
-        "start_time": "16:00",
-        "end_time": "18:00",
+        "start_time": "19:00",
+        "end_time": "22:00",
         "event_day": 5,
-        "title": "Le stream du vendredi",
+        "title": "Le stream du vendredi !",
         "category_id": "489335",
         "category_name": "Outer Wilds",
         "is_recurring": true
     },
     {
-        "start_time": "13:00",
-        "end_time": "18:00",
+        "start_time": "07:00",
+        "end_time": "12:00",
         "event_day": 6,
         "title": "Tournoi BADMINTON",
         "category_id": "518203",
