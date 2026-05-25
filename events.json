@@ -9,8 +9,8 @@
         "is_recurring": true
     },
     {
-        "start_time": "19:00",
-        "end_time": "22:00",
+        "start_time": "16:00",
+        "end_time": "18:00",
         "event_day": 5,
         "title": "Le stream du vendredi !",
         "category_id": "489335",
@@ -27,12 +27,21 @@
         "is_recurring": true
     },
     {
+        "start_time": "10:00",
+        "end_time": "14:00",
+        "event_day": 7,
+        "title": "Tournoi de badminton !",
+        "category_id": "518203",
+        "category_name": "Sports",
+        "is_recurring": false
+    },
+    {
         "start_time": "19:00",
         "end_time": "22:00",
         "event_day": 7,
         "title": "Le stream horreur du dimanche",
-        "category_id": "637565409",
-        "category_name": "Fear the Spotlight",
+        "category_id": null,
+        "category_name": null,
         "is_recurring": true
     }
 ]
