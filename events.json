@@ -4,26 +4,17 @@
         "end_time": "22:00",
         "event_day": 2,
         "title": "Le stream du mardi !",
-        "category_id": "489335",
-        "category_name": "Outer Wilds",
+        "category_id": "1535225577",
+        "category_name": "The Last of Us Part II Remastered",
         "is_recurring": true
     },
     {
-        "start_time": "16:00",
-        "end_time": "18:00",
+        "start_time": "19:00",
+        "end_time": "22:00",
         "event_day": 5,
         "title": "Le stream du vendredi !",
-        "category_id": "489335",
-        "category_name": "Outer Wilds",
-        "is_recurring": true
-    },
-    {
-        "start_time": "05:30",
-        "end_time": "10:30",
-        "event_day": 7,
-        "title": "TOURNOI BADMINTON",
-        "category_id": "518203",
-        "category_name": "Sports",
+        "category_id": "1535225577",
+        "category_name": "The Last of Us Part II Remastered",
         "is_recurring": true
     },
     {
