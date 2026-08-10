@@ -21,9 +21,9 @@
         "start_time": "19:00",
         "end_time": "22:00",
         "event_day": 7,
-        "title": "Le stream horreur du dimanche",
-        "category_id": "1028198402",
-        "category_name": "Dead Space",
+        "title": "Le stream du dimanche",
+        "category_id": null,
+        "category_name": null,
         "is_recurring": true
     }
 ]
