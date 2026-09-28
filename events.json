@@ -11,15 +11,6 @@
     {
         "start_time": "19:00",
         "end_time": "22:00",
-        "event_day": 4,
-        "title": "Le stream inattendu du jeudi",
-        "category_id": "1535225577",
-        "category_name": "The Last of Us Part II Remastered",
-        "is_recurring": false
-    },
-    {
-        "start_time": "19:00",
-        "end_time": "22:00",
         "event_day": 5,
         "title": "Le stream du vendredi !",
         "category_id": "1535225577",
