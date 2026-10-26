@@ -1,16 +1,25 @@
 [
     {
-        "start_time": "19:00",
-        "end_time": "22:00",
+        "start_time": "20:00",
+        "end_time": "23:00",
+        "event_day": 1,
+        "title": "Lundi p\u00eache",
+        "category_id": "1898040946",
+        "category_name": "How to Fish",
+        "is_recurring": false
+    },
+    {
+        "start_time": "20:00",
+        "end_time": "23:00",
         "event_day": 2,
         "title": "Le stream du mardi !",
-        "category_id": "464339927",
-        "category_name": "ARC Raiders",
+        "category_id": "1910103699",
+        "category_name": "THE FINALS",
         "is_recurring": true
     },
     {
-        "start_time": "19:00",
-        "end_time": "22:00",
+        "start_time": "20:00",
+        "end_time": "23:00",
         "event_day": 5,
         "title": "Le stream du vendredi !",
         "category_id": "1910103699",
