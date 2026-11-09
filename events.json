@@ -3,18 +3,18 @@
         "start_time": "20:00",
         "end_time": "23:00",
         "event_day": 2,
-        "title": "Le stream du mardi !",
-        "category_id": "1910103699",
-        "category_name": "THE FINALS",
+        "title": "Petit brotat du mardi",
+        "category_id": "743214338",
+        "category_name": "Brotato",
         "is_recurring": true
     },
     {
-        "start_time": "11:00",
-        "end_time": "14:00",
+        "start_time": "20:00",
+        "end_time": "23:00",
         "event_day": 4,
-        "title": "NOUVEAU DLC",
-        "category_id": "743214338",
-        "category_name": "Brotato",
+        "title": "Le stream inattendu",
+        "category_id": "1910103699",
+        "category_name": "THE FINALS",
         "is_recurring": false
     },
     {
