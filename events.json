@@ -11,15 +11,6 @@
     {
         "start_time": "20:00",
         "end_time": "23:00",
-        "event_day": 4,
-        "title": "Le stream inattendu",
-        "category_id": "1910103699",
-        "category_name": "THE FINALS",
-        "is_recurring": false
-    },
-    {
-        "start_time": "20:00",
-        "end_time": "23:00",
         "event_day": 5,
         "title": "Le stream du vendredi !",
         "category_id": "1910103699",
